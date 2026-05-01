@@ -1,0 +1,27 @@
+# Requisitos del Sistema para Aventura RPG
+# Basado en el análisis de los archivos del proyecto
+
+# Lenguaje base
+python >= 3.8
+
+# Librerías necesarias
+pygame >= 2.0.0
+
+# Notas de configuración del entorno:
+# 1. Asegúrate de tener instalado pip:
+#    - En Windows/Linux: python -m ensurepip --upgrade
+#
+# 2. Instalación de dependencias:
+#    - Ejecuta en tu terminal: pip install pygame
+#
+# 3. Estructura de carpetas esperada:
+#    - assets/
+#      - sonidos/ (golpe.wav, victoria.wav, derrota.wav)
+#      - sprites/ (protagonista_normal.png, protagonista_atacando.png, dragon.png, dragon2.png, lava.png, pueblo.png, capital.png)
+#    - core/
+#    - story/
+#    - systems/
+#    - ui/
+#
+# 4. Nota sobre los archivos de sonido:
+#    - Se recomienda el formato .wav para compatibilidad nativa con pygame.mixer.
